@@ -1,4 +1,4 @@
-FROM rundeck/rundeck:3.1.0
+FROM rundeck/rundeck:3.2.5
 USER root
 RUN apt-get update && \
     apt-get --yes install software-properties-common && \
